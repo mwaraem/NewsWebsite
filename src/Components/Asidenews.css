@@ -1,0 +1,32 @@
+.aside-news {
+	background-color: hsl(240, 100%, 5%);
+	padding-top: 30px;
+	padding-inline: 25px;
+	margin: 40px 0;
+}
+
+.aside-news__title {
+	color: hsl(35, 77%, 62%);
+}
+
+.aside-news__item {
+	list-style: none;
+	padding: 30px 0;
+}
+
+.aside-news__item:not(:last-child) {
+	border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.aside-news__item-title {
+	color: hsl(36, 100%, 99%);
+}
+
+.aside-news__item-title:hover {
+	color: hsl(35, 77%, 62%);
+	cursor: pointer;
+}
+
+.aside-news__item-content {
+	color: hsl(233, 8%, 79%);
+}

@@ -1,0 +1,38 @@
+.layout__header {
+	flex: 0 1 auto;
+}
+
+.layout__content {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.content__container {
+	display: flex;
+	flex-direction: column;
+}
+
+.layout__footer {
+	flex: 0 1 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+}
+
+@media (min-width: 456px) {
+	.layout__content {
+		flex-direction: column;
+	}
+
+	.content__container {
+		flex-direction: row;
+		gap: 20px;
+		flex-grow: 2;
+	}
+	.content__aside {
+		flex-grow: 1;
+	}
+}

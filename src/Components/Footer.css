@@ -1,0 +1,95 @@
+.more-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-item {
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+    width: 400px;
+}
+
+.first-item img {
+    padding: 20px;
+    height: 140px;
+}
+
+.first-item h1 {
+   color: hsl(236, 13%, 42%);
+}
+
+.first-item h2 {
+    font-size: 20px;
+}
+
+.first-item h2:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.first-item p {
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+}
+
+.second-item {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+}
+
+.second-item h1 {
+   color: hsl(236, 13%, 42%);
+}
+
+.second-item h2 {
+    font-size: 20px;
+    width: 230px;
+}
+
+.second-item h2:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.second-item p {
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+}
+
+.second-item img {
+    padding: 20px;
+    height: 140px;
+}
+
+.third-item {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+
+.third-item h1 {
+   color: hsl(236, 13%, 42%);
+}
+
+.third-item h2 {
+    font-size: 20px;
+    width: 200px;
+}
+
+.third-item h2:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.third-item p {
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+}
+
+.third-item img {
+    padding: 20px;
+    height: 140px;
+}

@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+}
+
+.navlist a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color:hsl(236, 13%, 42%);
+}
+
+.navlist a:hover {
+    color: hsl(5, 85%, 63%);
+}

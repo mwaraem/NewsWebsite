@@ -1,0 +1,56 @@
+.main-section img {
+    width: 96%;
+    margin-top: 40px;
+    height: 350px;
+}
+
+.main-section h1 {
+    color: hsl(240, 100%, 5%);
+    font-weight: 800;
+    width: 20rem; 
+    font-size: 3.5rem;
+}
+
+.main-section p {
+    margin-top: 60px;
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    width: 350px;
+}
+
+.main-section button {
+    background-color:hsl(240, 100%, 5%);
+    border: 0;
+    color: white;
+    font-family: sans-serif;
+    padding: 25px;
+    margin-top: 90px;
+    width: 200px;
+    font-weight: 700;
+}
+
+.main-section button:hover {
+    cursor: pointer;
+    background-color: hsl(5, 85%, 63%);
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+}
+
+ @media (min-width: 456px) {
+    .main-section {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .description h1 {
+        font-size: 3.5rem;
+        flex: 2 1 auto;
+    }
+
+    .description p {
+        flex: 0 1 auto;
+    }
+ }
